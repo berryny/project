@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,900&display=swap");
 /* font-family: 'Lato', sans-serif; */
 
+/* Font Awesome - Icons 
+  https://fontawesome.com/
+*/
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
 
 /* @import 'main.css'; */
@@ -12,10 +15,13 @@ body {
   margin: 2em; */
   font-family: "Lato", sans-serif;
   font-weight: 400;
+  font-size: 1em;
 }
 
 h1 {
-  font-style: italic;
+/*   font-style: italic; */
   color: #373fff;
   font-weight: 300;
+  font-style: normal;
+  font-size: 3em;
 }
