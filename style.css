@@ -81,6 +81,10 @@ div.hero {
 /*   viewport height */
   height: 50vh;
   min-height: 500px;
+  
+/*   viewport width */
+  width: 50vw;
+  min-width: 500px;
 }
 
 footer {
