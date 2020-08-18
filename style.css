@@ -59,7 +59,8 @@ header li {
   padding: 0;
 }
 
-div.hero {
+div.hero,
+.jumbotron {
   color: yellow;
   background-image: linear-gradient(
       180deg,
