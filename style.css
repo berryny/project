@@ -38,6 +38,11 @@ header {
   align-items: center; */
 }
 
+
+.social-media li {
+  display: inline;
+  margin-right: 2em;
+}
 /* 
 header li {
   display: inline;
