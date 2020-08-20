@@ -106,8 +106,12 @@ div.hero {
   background-color: transparent;
 }
 
+#video-media .row a:hover {
+  color: aqua;
+  text-decoration: none;
+}
 /* <div id="video-media"> */
-#video-media .row {
+#video-media .row:first-child {
   border-bottom: 2px solid yellow;
   padding-bottom: 5em;
   margin-bottom: 5em;
