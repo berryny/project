@@ -106,6 +106,13 @@ div.hero {
   background-color: transparent;
 }
 
+/* <div id="video-media"> */
+#video-media .row {
+  border-bottom: 2px solid yellow;
+  padding-bottom: 5em;
+  margin-bottom: 5em;
+}
+ 
 footer {
   text-align: center;
 }
