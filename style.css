@@ -6,6 +6,8 @@
 */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css");
+
 /* @import 'main.css'; */
 
 /* CSS files add styling rules to your content */
@@ -38,6 +40,9 @@ header {
   align-items: center; */
 }
 
+nav.navbar.navbar-expand-lg.navbar-light {
+    background-color: antiquewhite;
+}
 
 .social-media li {
   display: inline;
