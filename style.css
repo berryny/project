@@ -10,6 +10,10 @@
 
 /* @import 'main.css'; */
 
+:root {
+  --antiquewhite : antiquewhite;
+}
+
 /* CSS files add styling rules to your content */
 
 body {
@@ -41,7 +45,7 @@ header {
 }
 
 nav.navbar.navbar-expand-lg.navbar-light {
-    background-color: antiquewhite;
+    background-color: var(--antiquewhite);
 }
 
 .social-media li {
@@ -138,7 +142,7 @@ footer {
 
 @media only screen and (min-width: 768px) {
   body {
-    background-color: pink;
+    background-color: var(--antiquewhite);
   }
 }
 
