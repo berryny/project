@@ -22,6 +22,7 @@
   </head>
   <body>
     <header>
+      <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
       <nav class="navbar navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Logo/Project Name</a>
         <button
@@ -39,7 +40,7 @@
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
+                >Home</a
               >
             </li>
             <li class="nav-item dropdown active">
@@ -52,7 +53,7 @@
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                About
+                About <span class="sr-only">(current)</span>
               </a>
               <div
                 class="dropdown-menu"
@@ -69,7 +70,7 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main id="content">
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">Welcome to Project_Name</h1>
@@ -114,7 +115,7 @@
               <img
                 src="https://picsum.photos/id/1/600/300"
                 class="card-img-top"
-                alt="..."
+                alt="person on a laptop"
               />
               <div class="card-body">
                 <h5 class="card-title">About Me</h5>
@@ -131,7 +132,7 @@
               <img
                 src="https://picsum.photos/id/101/600/300"
                 class="card-img-top"
-                alt="..."
+                alt="house"
               />
               <div class="card-body">
                 <h5 class="card-title">About Project_Name</h5>
